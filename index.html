@@ -8,163 +8,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>메인 화면</title>
+    <title>My Wep Page</title>
   </head>
   <body>
-    <div class="title-fixed">
-      <div class="nav">
-        <i class="fas fa-globe"></i>
-        <i class="fas fa-battery-full"></i>
-        <span>12:30</span>
-      </div>
-      <div class="title-logo">
+    <div class="back">
+      <header class="header">
+        <div class="header-left">
+          <i class="fas fa-star"></i>
+          <span>SeungHwan</span>
+        </div>
+        <div class="header-right">
+          <ul class="header-right-boxs">
+            <div class="header-right-box">Home</div>
+            <div class="header-right-box">About</div>
+            <div class="header-right-box">Skills</div>
+            <div class="header-right-box">My work</div>
+            <div class="header-right-box">Testimonlal</div>
+            <div class="header-right-box">Contact</div>
+          </ul>
+        </div>
+      </header>
+      <div class="main">
         <img
-          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5090%2F2019%2F08%2F21%2F0001767184_001_20190821152809432.jpg&type=sc960_832"
+          class="main-img"
+          src="https://p4.wallpaperbetter.com/wallpaper/222/502/406/cute-girl-illustration-anime-wallpaper-preview.jpg"
         />
-        <span>Sungkyul university</span>
-        <div class="title-score">
-          <i class="fas fa-gem"></i>
-          <span>3000</span>
+        <h1 class="main-text">Hello,I`m Seung Hwan</h1>
+        <h3 class="main-text2">Here is My WepSite, Welcome</h3>
+        <div class="button">CONTACT ME</div>
+      </div>
+    </div>
+    <div class="my-skills">
+      <h1 class="about-myskill">About me</h1>
+      <p class="about-myskill-information">
+        Lorem ipsum dolor sit amet,consectetur adipiscing elit,Ut pretium
+        pretium tempor.Ut eget imperdiet neque,et aliquam,molestie justo at,
+        autor nunc,Phasellus ligula ipsum,volutpat eget semper id,viverra eget
+        nibh.Suspendisse luctus mattis cur
+      </p>
+      <div class="skill-img-informations">
+        <div class="skill-img-information">
+          <div class="icon-img">
+            <i class="fab fa-html5"></i>
+            <h1>Front-end</h1>
+            <p>HTML,CSS,javascript,React</p>
+          </div>
+        </div>
+        <div class="skill-img-information">
+          <div class="icon-img">
+            <i class="fas fa-mobile"></i>
+            <h1>Mobile</h1>
+            <p>Android iOS,java</p>
+          </div>
+        </div>
+        <div class="skill-img-information">
+          <div class="icon-img">
+            <i class="fas fa-file-export"></i>
+            <h1>Back-end</h1>
+            <p>java,javaScript,NodeJs</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="header">
-      <div class="header-button">
-        <i class="fas fa-user-friends"></i>
-        <br />
-        <span>친구</span>
-      </div>
-      <div class="header-button">
-        <i class="fas fa-server"></i>
-        <br /><span>채널</span>
-      </div>
-      <div class="header-button">
-        <i class="far fa-comments"></i>
-        <br />
-        <span>대화</span>
-      </div>
-      <div class="header-button">
-        <i class="fas fa-cog"></i>
-        <br />
-        <span>설정</span>
-      </div>
-    </div>
-    <div class="information-title">내 정보</div>
-    <div class="Myinformation">
-      <div class="Myinformation-img">
-        <img
-          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MjVfNjIg%2FMDAxNTk1NjU0NzA3MDIx.YadaNjiIVv_DKIPu_F8rLXNDhZZKx-TDqwnVeDwCWU0g.ItHZVSUENPjN_9Se7BDsvl0FC2tONwjqX7-2GyjlTSQg.JPEG.a_6a_dd0-n%2F1595654707295.jpeg&type=sc960_832"
-        />
-      </div>
-      <div class="Myinformation-private">
-        <span>이름:짱구</span>
-        <span>거주지:서울 키:50cm </span>
-      </div>
-    </div>
-    <div class="information-title">매칭 상대</div>
-    <div class="person-scroll">
-      <div class="Myinformation">
-        <div class="Myinformation-img">
+      <div class="mydream-companys">
+        <div class="mydream-company">
           <img
-            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160423_60%2Ftjrudgns4000_1461374847375lPyxl_JPEG%2F20160423_102328.jpg&type=sc960_832"
+            src="data:image/jpeg;base64,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"
           />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:신형만</span>
-            <span>거주지:서울 키:183cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
+          <div class="mydream-company-information">
+            <span>Currently working at company as Software Enginner</span>
+            <span>2021/8/22</span>
           </div>
         </div>
-      </div>
-      <div class="Myinformation">
-        <div class="Myinformation-img">
+        <div class="mydream-company">
           <img
-            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150226_167%2Fyulia315_1424931287980DDUvF_JPEG%2F%25BD%25C5%25BA%25C0%25BC%25B1.JPG&type=sc960_832"
+            src="data:image/png;base64,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"
           />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:신봉선</span>
-            <span>거주지:서울 키:170cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
+          <div class="mydream-company-information">
+            <span>Currently working at company as Software Enginner</span>
+            <span>2021/8/22</span>
           </div>
         </div>
       </div>
-      <div class="Myinformation">
-        <div class="Myinformation-img">
-          <img src="https://pbs.twimg.com/media/DLi2eZcVoAAa7NS.jpg:large" />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:흰둥이</span>
-            <span>거주지:서울 키:30cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
-          </div>
-        </div>
-      </div>
-      <div class="Myinformation">
-        <div class="Myinformation-img">
-          <img src="https://pbs.twimg.com/media/DLi2eZcVoAAa7NS.jpg:large" />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:흰둥이</span>
-            <span>거주지:서울 키:30cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
-          </div>
-        </div>
-      </div>
-      <div class="Myinformation">
-        <div class="Myinformation-img">
-          <img src="https://pbs.twimg.com/media/DLi2eZcVoAAa7NS.jpg:large" />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:흰둥이</span>
-            <span>거주지:서울 키:30cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
-          </div>
-        </div>
-      </div>
-      <div class="Myinformation">
-        <div class="Myinformation-img">
-          <img src="https://pbs.twimg.com/media/DLi2eZcVoAAa7NS.jpg:large" />
-        </div>
-        <div class="Myinformation-private-click">
-          <div class="Myinformation-private">
-            <span>이름:흰둥이</span>
-            <span>거주지:서울 키:30cm </span>
-          </div>
-          <div class="Myinformation-click">
-            <div class="click">대화하기</div>
-            <div class="click">패스</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="filter">
-      <div class="filter-icons"><i class="fas fa-caret-left"></i></div>
-      <div class="filter-icons"><i class="far fa-circle"></i></div>
-      <div class="filter-icons"><i class="far fa-square"></i></div>
-    </div>
-    <div id="no-mobile">
-      <span>Your screen is too big</span>
     </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
