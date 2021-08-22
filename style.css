@@ -1,16 +1,15 @@
 @import "reset.css";
-.back{
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+.back {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
-
 
 .header {
   display: flex;
   color: whitesmoke;
   justify-content: space-between;
   font-size: 23px;
-  padding:20px 15px;
-  margin-bottom:20px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
 }
 .header-right-boxs {
   display: flex;
@@ -21,12 +20,10 @@
 .header-right-box:hover {
   border: 1px solid white;
   transform: scale(1.1);
-  );
 }
 .main {
   color: whitesmoke;
   text-align: center;
-  
 }
 
 .main-img {
@@ -43,78 +40,123 @@
   font-size: 30px;
   margin: 30px 3px;
 }
-.main div
-{
-    margin:10px auto;
-    padding: 30px 3px;
-    border:1px solid white;
-    height:10%;
-    width:20%;
+.main div {
+  margin: 10px auto;
+  padding: 30px 3px;
+  border: 1px solid white;
+  height: 10%;
+  width: 20%;
 }
-.my-skills
-{
-    margin:15px;
+.my-skills {
+  margin: 15px;
 }
-.about-myskill
-{
-    text-align:center;
-    font-weight:600;
-    font-size:50px;
+.about-myskill {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
 }
-.about-myskill-information
-{
-    width:60%;
-    margin:20px auto;
+.about-myskill-information {
+  width: 60%;
+  margin: 20px auto;
 }
-.skill-img-informations
-{
-    display:flex;
-    justify-content:space-around;
+.skill-img-informations {
+  display: flex;
+  justify-content: space-around;
 }
-.icon-img
-{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+.icon-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.icon-img i{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:60px;
-    height:150px;
-    width:150px;
+.icon-img i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  height: 150px;
+  width: 150px;
 }
-.icon-img h1
-{
-    font-size:30px;
-    margin-bottom:15px;
+.icon-img h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
 }
-.icon-img p{
-opacity:0.7;
+.icon-img p {
+  opacity: 0.7;
 }
-.mydream-companys
-{display:flex;
-    
-    flex-direction:column;
-margin-top:30px;
+.mydream-companys {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 30px;
 }
-.mydream-company
-{
-    display:flex;
-    align-items:center;
-    margin:20px 20px;
+.mydream-company {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px;
 }
-.mydream-company img{
-height:50px;
-width:50px;
-margin-right:15px;
+.mydream-company img {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
 }
-.mydream-company-information
-{
-    display:flex;
-    flex-direction:column;
+.mydream-company-information {
+  display: flex;
+  flex-direction: column;
 }
-.mydream-company-information span{
-    margin:5px 0;
+.mydream-company-information span {
+  margin: 5px 0;
+}
+.skill-graph-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.skill-graph {
+  padding: 30px 40px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+}
+.skill-graph h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.skill-graph h1,
+h3,
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.skill-graph-img {
+  display: flex;
+  color: whitesmoke;
+}
+.skill-graph-img img {
+  height: 50%;
+  width: 50%;
+}
+.skill-graph-img2 {
+  text-align: center;
+  width: 50%;
+}
+.skill-graph-img2-box {
+  background-color: rgb(77, 72, 72);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skill-graph-img2-box h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.skill-graph-img2-box2 {
+  background-color: rgb(99, 92, 92);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skill-graph-img li {
+  margin-bottom: 5px;
 }
