@@ -1,4 +1,7 @@
 @import "reset.css";
+body {
+  min-width: 700px;
+}
 .back {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
@@ -159,4 +162,53 @@ p {
 }
 .skill-graph-img li {
   margin-bottom: 5px;
+}
+.my-work h1 {
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.my-work h3 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-button {
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.project-button:hover {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.project-img {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.project-img img {
+  display: flex;
+  margin: 0 10px;
+  height: 40%;
+  width: 30%;
+  border-radius: 10%;
+}
+.project-img img {
+  animation: up-down 1.4s infinite ease-in-out alternate;
+}
+@keyframes up-down {
+  from {
+    transform: translatey(0px);
+  }
+  to {
+    transform: translatey(20px);
+  }
 }
