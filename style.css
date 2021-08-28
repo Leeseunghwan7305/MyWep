@@ -1,6 +1,7 @@
 @import "reset.css";
 body {
   min-width: 800px;
+  height: 200vh;
 }
 .back {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
@@ -194,6 +195,7 @@ p {
   justify-content: center;
   margin: 30px 0;
 }
+
 .project-img img {
   display: flex;
   margin: 0 10px;
@@ -211,4 +213,6 @@ p {
   to {
     transform: translatey(20px);
   }
+}
+
 }
